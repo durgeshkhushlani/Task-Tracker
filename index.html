@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <button id="openAuthBtn">Login / Signup</button>
+
+    <div id="userBar" style="display:none;">
+        <span id="userEmail"></span>
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+    <div class="to-do">
+        <div class="app">
+            <!-- Heading of App -->
+
+            <div class="heading">
+                <h1> Task Tracker </h1>
+            </div>
+
+            <!-- Tasks List -->
+
+            <div class="container"></div>
+            <div class="new-task">
+                <div class="task">
+                    <div class="complete-button">
+
+                    </div>
+                    <div class="task-text">
+                        <input type="text" class="task-input" placeholder="Add new task">
+                    </div>
+                </div>
+                <div class="add-task-btn">
+                    <p>+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span id="closeAuth">&times;</span>
+
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+
+            <button id="loginBtn">Login</button>
+            <button id="signupBtn">Signup</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
