@@ -1,2 +1,14 @@
-# Task-Tracker
-A full-stack Task Tracker application built with Node.js, MongoDB, and vanilla JavaScript featuring JWT authentication and per-user task management.
+# Task Tracker App (Auth Based)
+
+Features:
+- User signup/login (JWT)
+- Username-based auth
+- Per-user tasks
+- MongoDB backend
+- Vanilla JS frontend
+
+Tech Stack:
+- Node.js, Express
+- MongoDB, Mongoose
+- JWT, bcrypt
+- HTML, CSS, JavaScript
